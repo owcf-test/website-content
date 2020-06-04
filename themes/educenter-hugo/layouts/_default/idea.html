@@ -1,0 +1,28 @@
+<div class="col-12 mb-50 content">
+    <div class="container">
+      <div class="row align-items-center">
+        {{ if eq .Params.image_align "left"}}
+          {{ with .Params.Image }}
+          <div class="col-md-6 order-2 order-md-1 mb-4 mb-md-0">
+            <img class="img-fluid w-100" src="{{ . | absURL }}" alt="image">
+          </div>
+          {{ end }}
+        {{ end }}
+        <div class="col-md-6 order-2 order-md-1 content">
+            <p>{{ .Content }}</p>
+            <ul class="list-unstyled">
+              {{ range .Params.Contact }}
+              <li class="mb-3"><a class="text-color" href="{{ .link | safeURL }}"><i class="{{ .icon }} mr-2"></i>{{ .name }}</a></li>
+              {{ end }}
+            </ul>
+        </div>
+        {{ if eq .Params.image_align "right"}}
+          {{ with .Params.Image }}
+          <div class="col-md-6 order-1 order-md-2 mb-4 mb-md-0">
+            <img class="img-fluid w-100" src="{{ . | absURL }}" alt="image">
+          </div>
+          {{ end }}
+        {{ end }}
+      </div>
+    </div>
+ </div>

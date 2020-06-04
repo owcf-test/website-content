@@ -1,0 +1,16 @@
+{{ define "main" }}
+
+<section class="section">
+  <div class="container">
+    <div class="row filtr-container">
+      {{ range .Data.Pages }}
+      <div data-category="{{ .Params.Role | urlize }}" class="col-lg-4 col-sm-6 filtr-item">
+        {{ .Render "founder" }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+
+{{ end }}

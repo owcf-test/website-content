@@ -1,0 +1,147 @@
+################################# Slider #####################################
+slider:
+  enable : true
+  bg_image : "images/banner/banner-1.jpg"
+  slider_item:
+    # slider item loop
+    - title : "Unser Engagement für saubere Ozeane"
+      content : "Unsere Expertenkompetenz für eine saubere Umwelt. Die Ocean Waste Catcher Foundation ist gemäß ihrer Satzung eine mildtätige gemeinnützige Stiftung.
+                 Schwerpunktmäßig engagiert sich die Ocean Waste Catcher Foundation die Weltmeere und Ozeane von Plastikmüll zu reinigen."
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "Fragen Sie uns"
+        link : "../contact"
+
+    # slider item loop
+    - title : "Helfen auch Sie"
+      content : "Finden Sie unsere Projekt toll, engagieren Sie sich. Machen Sie auf unser Projekt aufmerksam. Werden Sie Mitglied, oder unterstützen Sie uns mit einer kleinen Spende."
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "Spenden Sie"
+        link : "../donate"
+
+############################### Banner feature ###############################
+banner_feature:
+  enable : false
+  image : "images/banner/banner-feature.png"
+  feature_item:
+    # feature item loop
+    - name : "Bourses académiques"
+      icon : "ti-book" # icon pack : https://themify.me/themify-icons
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
+
+    # feature item loop
+    - name : "Notre bureau"
+      icon : "ti-blackboard" # icon pack : https://themify.me/themify-icons
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
+
+    # feature item loop
+    - name : "Nos accomplissements"
+      icon : "ti-agenda" # icon pack : https://themify.me/themify-icons
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
+
+    # feature item loop
+    - name : "Admission"
+      icon : "ti-write" # icon pack : https://themify.me/themify-icons
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
+
+
+############################## about ##################################
+about:
+  enable : true
+  title : "Wussten Sie ..."
+  image : "images/waste/wal.jpg"
+  content : "Wenn es um gesundes Essen geht, empfehlen Ärzte gerne wöchentliche Fischmalzeiten, damit wir mit wichtigen Eiweißen, Vitaminen und Fetten versorgt werden.
+             Wenige denken jedoch dabei an die zunehmende Aufnahme von Plastikresten durch Fische in allen Weltmeeren, die unserer Gesundheit abträglich sind.
+             Daher ist es dringend erforderlich der zunehmenden Vermüllung von Ozeanen entgegenzutreten, um ein gesundes Lebensmittel für zukünftige Generationen sicherzustellen."
+  button:
+    enable : false
+    label : ""
+    link : "about"
+
+############################## about2 ##################################
+about2:
+  enable : true
+  title : "Folgen und Auswirkung"
+  image : "images/waste/tiersterben.jpg"
+  content : "Jedes Jahr sterben 1 Million Vögel durch Plastikabfälle in ihrem Futter.
+             Die im Plastik enthaltenen Toxine kommen über die Nahrungskette
+             zu uns zurück."
+  button:
+    enable : false
+    label : ""
+    link : "about"
+
+############################# Course ################################
+course:
+  enable : false
+  title : "Notre cours"
+  # course item comes from "content/**/course" folder.
+
+########################## Call to action ############################
+cta:
+  enable : true
+  title : "Möchten Sie unsere Aktion unterstützen."
+  button:
+     enable : true
+     label : "Spenden Sie"
+     link : "../donate"
+
+######################## Success story #############################
+success_story:
+  enable : true
+  bg_image : "images/banner/banner-1.jpg"
+  title : "Was machen wir"
+  content : "Mit unserem Ocean waste catcher arbeiten wir dieser negativen Umweltentwicklung entgegen,
+  in dem die Ozeane vom Müll gesäubert und gleichzeitig Rohstoffe produziert
+  werden, die natürliche Rohstoffe ersetzen."
+  # video link
+  video_link : "https://www.youtube.com/watch?v=1d6r5jHGi3U"
+  button:
+    enable: true
+    label: "Unsere Idee"
+    link: "../idea"
+
+
+############################# event ################################
+event:
+  enable : false
+  title : "Événements à venir"
+  # event item comes from "content/**/event" folder.
+
+  
+########################### funfacts ############################
+funfacts:
+  enable : false
+  funfact_item:
+    # funfact item loop
+    - name : "ENSEIGNANTS"
+      count : "60"
+
+    # funfact item loop
+    - name : "COURS"
+      count : "50"
+
+    # funfact item loop
+    - name : "ÉTUDIANTS"
+      count : "1000"
+
+    # funfact item loop
+    - name : "CLIENTS SATISFAITS"
+      count : "1400"
+
+# funfact is for about page
+
+
+
+############################# blog ################################
+blog:
+  enable : true
+  title : "Blog"
+  # blog item comes from "content/**/blog" folder.
