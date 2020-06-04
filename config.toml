@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "owcf-test.github.io"
+baseURL = ""
 title = "Ocean Waste Catcher Foundation"
 theme = "educenter-hugo"
 # post pagination
