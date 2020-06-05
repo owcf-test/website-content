@@ -1,10 +1,5 @@
 ---
-title: "Idea"
 draft: false
-# page title background image
-bg_image: "images/backgrounds/page-title.jpg"
-# meta description
-description : "Idee"
 image: "images/idea/waste_island.jpg"
 image_align: "right"
 weight: 1
