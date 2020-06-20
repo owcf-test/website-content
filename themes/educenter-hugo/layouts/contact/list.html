@@ -20,9 +20,12 @@
       <div class="col-lg-7 mb-4 mb-lg-0">
         <form action="{{ .Site.Params.contact_form_action | safeURL }}" method="POST">
           <input type="text" class="form-control mb-3" id="name" name="name" placeholder="Your Name">
-          <input type="email" class="form-control mb-3" id="mail" name="mail" placeholder="Your Email">
-          <input type="text" class="form-control mb-3" id="subject" name="subject" placeholder="Subject">
-          <textarea name="message" id="message" class="form-control mb-3" placeholder="Your Message"></textarea>
+          <input type="email" class="form-control mb-3" id="mail" name="email" placeholder="Your Email">
+          <input type="text" class="form-control mb-3" id="subject" name="_subject" placeholder="Subject">
+          <input type="text" name="_honey" style="display:none">
+          <input type="hidden" name="_captcha" value="false">
+          <textarea id="message" name="message" class="form-control mb-3" placeholder="Your Message"></textarea>
+          <input type="hidden" name="_template" value="table">
           <button type="submit" value="send" class="btn btn-primary">{{ i18n "send" }}</button>
         </form>
       </div>
