@@ -112,7 +112,7 @@ address = "Isegrimsteig 33, D-13503 Berlin-Heiligensee"
 mobile = "+49 179 811 5385"
 email = "N.Oefner@ocean-waste-catcher-foundation.com"
 # contact form action
-contact_form_action = "https://formsubmit.co/af17e387d32f368d43c0aa74acfa6d8f" # contact form works with https://formspree.io, free alternative: https://formsubmit.co/help
+contact_form_action = "https://formsubmit.co/N.Oefner@ocean-waste-catcher-foundation.com" # contact form works with https://formspree.io, free alternative: https://formsubmit.co/help
 # Google Analitycs
 google_analitycs_id = "" # your id
 # top header
