@@ -140,10 +140,10 @@ enable = false
 #map_marker = "images/marker.png"
   
 ############################# social site ########################
-[[params.social]]
-title = "facebook"
-icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
-link = "https://de-de.facebook.com/UNICEFdeutschland" #TODO replace with owc homepage!
+#[[params.social]]
+#title = "facebook"
+#icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
+#link = "https://de-de.facebook.com/UNICEFdeutschland" #TODO replace with owc homepage!
 
 #[[params.social]]
 #title = "twitter"
